@@ -11,8 +11,8 @@ SRCS:=print_array.c print_list.c # Source files
 
 # make o(0~1000)
 o%: ./output/%-output.txt
-	./$(TARGET)
-	cat $<
+	@./$(TARGET)
+	@cat $<
 
 # Clean Target
 clean:
