@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * selection_sort - function that sorts an array of integers
  * in ascending order using the Selection sort algorithm
@@ -6,6 +7,7 @@
  * @array: array that i need to swap
  * @size: size of array
  */
+
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j;
@@ -23,7 +25,7 @@ void selection_sort(int *array, size_t size)
 			if (array[index] > array[j])
 			{
 				index = j;
-			}	
+			}
 		}
 		temp = array[index];
 		array[index] = array[i];
