@@ -2,6 +2,10 @@
 #include <stdlib.h>
 
 /**
+ * key - Finds the largest element in the array
+ * @array: Pointer to the array to search in
+ * @size: Number of elments in the array
+ * Return: The largest element in the array
  */
 int key(int *array, size_t size)
 {
@@ -15,6 +19,9 @@ int key(int *array, size_t size)
 	return (n);
 }
 /**
+ * counting_sort - Sorts an array using the counting sort algorithm.
+ * @array: Pointer to the array to be sorted.
+ * @size: Size of the array
  */
 void counting_sort(int *array, size_t size)
 {
